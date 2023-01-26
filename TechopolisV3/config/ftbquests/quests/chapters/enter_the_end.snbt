@@ -1,0 +1,112 @@
+{
+	id: "0473220A0B3E1E0D"
+	group: "20FD61328CB6F105"
+	order_index: 1
+	filename: "enter_the_end"
+	title: "进入末地"
+	icon: "minecraft:dragon_egg"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Locate The Gate"
+			x: 0.0d
+			y: 0.0d
+			description: ["用你在世界各地找到的眼睛，找到末地门"]
+			dependencies: ["77B01EDB9BE946B1"]
+			id: "3DEF66B4EB94FF70"
+			tasks: [{
+				id: "578616223185096D"
+				type: "checkmark"
+				title: "Locate a end gate by throwing some on the different eyes you have found around the world"
+			}]
+			rewards: [{
+				id: "76F1E9F2DCD7AABD"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["每个眼睛都必须放置在末地门框架内"]
+			dependencies: [
+				"7A2AFAE96FD734BA"
+				"2D0BD6E511C11FCE"
+				"46A400C55E44B445"
+				"33D5DCCDEBC69892"
+				"70489C10FA7D499E"
+				"612195F28CBCD15D"
+				"337742B59120A5B8"
+				"42B5E11785A5A482"
+				"5C4ACADAEDBCE39E"
+				"5A86260FED0DF201"
+				"43E915019D407B6C"
+				"2FBEEB1D7B108C48"
+				"3DEF66B4EB94FF70"
+			]
+			id: "64778D2B0E7F3CF6"
+			tasks: [{
+				id: "1E6061089DB2D8FD"
+				type: "checkmark"
+				title: "Fill The Gate"
+			}]
+			rewards: [{
+				id: "1EA9D3505E247FC8"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["杀死末影龙"]
+			dependencies: ["1337A2ED29FA4CED"]
+			id: "2612C05DD9E12633"
+			tasks: [{
+				id: "58EF7FACEEEA6F50"
+				type: "checkmark"
+				title: "Kill the ender dragon"
+			}]
+			rewards: [{
+				id: "7967FE2C880107F8"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["龙蛋"]
+			dependencies: ["2612C05DD9E12633"]
+			id: "49C6374821D9524C"
+			tasks: [{
+				id: "08E342DDA43AA8F7"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+			rewards: [{
+				id: "3808529A07E3CB5A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["进入结束传送门"]
+			dependencies: ["64778D2B0E7F3CF6"]
+			id: "1337A2ED29FA4CED"
+			tasks: [{
+				id: "63BCCD65447D029C"
+				type: "checkmark"
+				title: "Enter The End"
+			}]
+			rewards: [{
+				id: "7D5C719ED340FBB0"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

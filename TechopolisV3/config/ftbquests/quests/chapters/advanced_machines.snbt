@@ -1,0 +1,180 @@
+{
+	id: "23A9F3C7E495C650"
+	group: "178A97B2CE07EE30"
+	order_index: 4
+	filename: "advanced_machines"
+	title: "先进的技术元素"
+	icon: "techopolis:advanced_technium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["用于制造一些更先进的机器，包括3级矿工"]
+			dependencies: [
+				"3BBA60CD1C33B5C4"
+				"6AFDE9ED4C4788E0"
+				"6457DD4775EAC589"
+				"40B587E575B23A6A"
+			]
+			id: "7AC267FC02BB542A"
+			tasks: [{
+				id: "667850DAF3265964"
+				type: "item"
+				item: "techopolis:advanced_technium_ingot"
+			}]
+			rewards: [{
+				id: "20F30DE082B89D73"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["流体工匠中的水砖和熔岩将制造黑曜石"]
+			dependencies: ["4A1684ED0FFA24D9"]
+			id: "3BBA60CD1C33B5C4"
+			tasks: [{
+				id: "61507F530BEBAEA8"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "05645AEF59F1205F"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: ["石砖浸泡在水里可以做成水砖"]
+			dependencies: ["2CFA976B868A3980"]
+			id: "4A1684ED0FFA24D9"
+			tasks: [{
+				id: "18B47AE41F46E547"
+				type: "item"
+				item: "techopolis:aqua_bricks"
+			}]
+			rewards: [{
+				id: "357DC90B8E6539D6"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["改良版的煤发电机"]
+			dependencies: [
+				"79A54A4EE4705608"
+				"5671CDC0240FF566"
+				"3D431EBA50DB1880"
+			]
+			id: "2CFA976B868A3980"
+			tasks: [{
+				id: "554DF64117667E1D"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "790F8AD24FCA2B93"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			description: ["允许你收集1级和2级矿石，并将它们移动到更合适的位置"]
+			dependencies: ["7AC267FC02BB542A"]
+			id: "02FDCFFCDCC34962"
+			tasks: [{
+				id: "5487CDF0FDE0C205"
+				type: "item"
+				item: {
+					id: "techopolis:advanced_technium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72DD72AEC434A6E0"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["将物品从一个末箱运送到另一个相同颜色的末影箱。也可以用末影袋取用。可以通过手持青金石右键单击锁上来设置为私人"]
+			dependencies: ["7AC267FC02BB542A"]
+			id: "60EBE718684C1CD9"
+			tasks: [{
+				id: "780F062E4A0CBD01"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "4A81BD21E461C48B"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["将液体从一个末影箱运送到另一个相同颜色的末影箱。可以通过手持青金石右键单击锁上来设置为私人"]
+			dependencies: ["7AC267FC02BB542A"]
+			id: "033D8C0DC1C68361"
+			tasks: [{
+				id: "558950CA07F25E8B"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "6EF64C26C7DC2B59"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["更好的太阳能"]
+			dependencies: ["7AC267FC02BB542A"]
+			id: "25014D33B995B77C"
+			tasks: [{
+				id: "02DCD375722612E2"
+				type: "item"
+				item: "powah:solar_panel_basic"
+			}]
+			rewards: [{
+				id: "35483EF3061353DB"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["xnet是一个非常强大的mod，允许高级自动化。连接器可用于连接到不同类型的域，然后连接到xnet控制器"]
+			dependencies: ["7AC267FC02BB542A"]
+			id: "74784AC95A5E82BA"
+			tasks: [{
+				id: "0E077943B63D6AE1"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "08A7D82B15FD4DD4"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

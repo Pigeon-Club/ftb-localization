@@ -1,0 +1,153 @@
+{
+	id: "482D5A88D4E44A59"
+	group: "6A1B09F2040C26F2"
+	order_index: 3
+	filename: "heater"
+	title: "熔炉"
+	icon: "tconstruct:seared_heater"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["用于制作焦黑砖"]
+			dependencies: [
+				"3DFA7088CF07C548"
+				"04C0731F73D0EAA4"
+				"10F3FE6BB2274CAC"
+			]
+			id: "10CF194B5CBBB655"
+			tasks: [{
+				id: "10BB1EE3CCF239FA"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+			rewards: [{
+				id: "3E6165AF2D85E6FD"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["用于提取熔炉的熔融流体"]
+			dependencies: ["480E362F20BE46F3"]
+			id: "6D4242BFABF031FF"
+			tasks: [{
+				id: "7A5BE6C3AAE4D7E2"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+			rewards: [{
+				id: "4B887D58E312B0D4"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["用来制造冶炼厂和熔炉的零件"]
+			dependencies: ["10CF194B5CBBB655"]
+			id: "480E362F20BE46F3"
+			tasks: [{
+				id: "172B37AD24EE53AD"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "4CB8B149B3AE2543"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"这个基本的设置可以用来把你的矿机挖出的矿石块变成有用的材料"
+				"{image:techopolis:textures/ftbquests/heater.png width:140 height:100 align:1}"
+			]
+			dependencies: ["480E362F20BE46F3"]
+			id: "5385996DDAEF9F2A"
+			tasks: [
+				{
+					id: "675DC2264F7EC6B9"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "4FC930B585EB74F8"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+			rewards: [{
+				id: "3430FF6CD1CCF307"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Sand Casts"
+			x: 1.5d
+			y: 1.0d
+			description: ["一次性模具。将铸件放置到铸造表中，右键单击要铸造的项目类型，例如锭"]
+			dependencies: ["5385996DDAEF9F2A"]
+			id: "26A21FC368FE7C82"
+			tasks: [{
+				id: "7CF88BE63F02C546"
+				type: "item"
+				title: "Any #tconstruct:casts/single_use/blank"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/single_use/blank"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F1A1A982CDBAE17"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["用来铸造铜等熔化金属块"]
+			dependencies: ["5385996DDAEF9F2A"]
+			id: "52130F4648E820E9"
+			tasks: [{
+				id: "07FADC00E68FD5D1"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+			rewards: [{
+				id: "7A0FE78FC44C7340"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["用于铸造铸锭和工具零件等物品"]
+			dependencies: ["5385996DDAEF9F2A"]
+			id: "78F321A4E02B6256"
+			tasks: [{
+				id: "55FDA7218528C75C"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+			rewards: [{
+				id: "27099C11B4CC36B4"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

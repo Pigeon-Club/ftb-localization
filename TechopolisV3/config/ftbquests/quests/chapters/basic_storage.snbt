@@ -1,0 +1,163 @@
+{
+	id: "60661F1E4E449009"
+	group: "6A1B09F2040C26F2"
+	order_index: 2
+	filename: "basic_storage"
+	title: "基本存储"
+	icon: "minecraft:chest"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Wooden Chests"
+			x: 0.0d
+			y: 0.0d
+			description: ["基本存储 27 件物品"]
+			dependencies: ["40EE037F48FBA49E"]
+			id: "70EA7876D650F3A4"
+			tasks: [{
+				id: "713B6240323DFF50"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4250505DA77F0370"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "1x1 Drawer"
+			x: 0.0d
+			y: -1.5d
+			description: ["存储大量单一物品"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "468506758016F066"
+			tasks: [{
+				id: "1EE4F1BFB0762D04"
+				type: "item"
+				title: "Any #techopolis:drawer_1x1"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "techopolis:drawer_1x1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "17C78A0838613198"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "2x1 Drawer"
+			x: 1.5d
+			y: -1.0d
+			description: ["存储中量两件物品"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "48E1C45FC9B8B289"
+			tasks: [{
+				id: "2FEEF7B3113C75A1"
+				type: "item"
+				title: "Any #techopolis:drawer_2x1"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "techopolis:drawer_2x1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00E0406A6C3231B4"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "2x2 Drawer"
+			x: -1.5d
+			y: -1.0d
+			description: ["存储少量四件物品"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "469C8B2BF1674D8D"
+			tasks: [{
+				id: "571832F39501E1F8"
+				type: "item"
+				title: "Any #techopolis:drawer_2x2"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "techopolis:drawer_2x2"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C6D564F51818479"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["可用于提供基本排序"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "0D8F2B5FC5CDD12D"
+			tasks: [{
+				id: "6F44A4D00A6DB1CB"
+				type: "item"
+				item: "refinedrelocation:sorting_chest"
+			}]
+			rewards: [{
+				id: "2C549E3671C3AE89"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["适合随身携带物品。有各种升级，使其更有用"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "235FC9BED116CD0A"
+			tasks: [{
+				id: "282FCC3982DE4536"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "50AAC269FFEFCC8B"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["把你的垃圾扔进垃圾桶!"]
+			dependencies: ["70EA7876D650F3A4"]
+			id: "26D5B68EC154EEC7"
+			tasks: [{
+				id: "6C03DDFCBD42C8FA"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [{
+				id: "2DB54F1B1995CA4A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

@@ -1,0 +1,212 @@
+{
+	id: "218D2662823292DD"
+	group: "4CC5D67BAB713F5F"
+	order_index: 0
+	filename: "information"
+	title: "信息"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["大家好，欢迎来到科技之城(techopolis)，这是一个关于自动化和科技的整合包"]
+			id: "388505AF2592BC12"
+			tasks: [{
+				id: "37A473B9E17E41C5"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+			rewards: [
+				{
+					id: "0D761E7D08F76CC8"
+					type: "item"
+					item: "techopolis:tech_bucks"
+				}
+				{
+					id: "7CA802B3393B6125"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:techopolis"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"矿石刷出与正常的minecraft矿石完全不同，地质系统会在地表留下矿石样本，在下面的某个地方你会发现矿石。矿石也不能通过正常的采矿获得。你必须使用矿工方块。"
+				"{image:kubejs:textures/block/miner_side.png width:100 height:100 align:1}"
+				""
+			]
+			dependencies: ["388505AF2592BC12"]
+			id: "7CC613C51009BC3F"
+			tasks: [{
+				id: "48D00B32E32B60AC"
+				type: "checkmark"
+				title: "Ores"
+			}]
+			rewards: [{
+				id: "7BD1D203687907A9"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"在FTB任务屏幕的右上角有一个按钮(如下所示)，如果你在一个不好的区域出生，它会为你提供一棵树苗"
+				"{image:ftbquests:textures/gui/emergency_items.png width:100 height:100 align:1}"
+			]
+			dependencies: ["388505AF2592BC12"]
+			id: "71CA5D6CD6A3F551"
+			tasks: [{
+				id: "0F73D9CD592A6ABF"
+				type: "checkmark"
+				title: "Emergency Items"
+			}]
+			rewards: [{
+				id: "4915E1AE859415B8"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Dropping and Throwing"
+			x: 0.0d
+			y: -2.0d
+			description: ["物品可以用q投掷。按q可以让你扔物品"]
+			dependencies: ["388505AF2592BC12"]
+			id: "270E5F776B481B06"
+			tasks: [{
+				id: "6799E61D21E4A6DA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4B57AF9FE24B2295"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Tech Bucks"
+			x: -2.0d
+			y: 0.0d
+			description: ["技术资金可以用来在市场上购买物品。市场是一个方块，可以用来购买有用的物品和其他方块"]
+			dependencies: ["388505AF2592BC12"]
+			id: "122AACB970211700"
+			tasks: [{
+				id: "4314D6613A3D1265"
+				type: "checkmark"
+				title: "Tech bucks can be used to purchase items"
+			}]
+			rewards: [{
+				id: "65A3A0D1329EDEF4"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["挖矿的时候可以按连锁采矿一次分解64个相同的区块，对树木很方便"]
+			dependencies: ["388505AF2592BC12"]
+			id: "64DA5E6EF82F9ADF"
+			tasks: [{
+				id: "2BA94DFFEED35D8C"
+				type: "checkmark"
+				title: "FTB Ultimine"
+			}]
+			rewards: [{
+				id: "3EEBED64C02CDDFA"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"任务可以共享。通过以下方式创建团队:"
+				"/ftbteams party create <name here>"
+				"添加其他玩家"
+				"/ftbteams party invite <player name here>"
+			]
+			dependencies: ["388505AF2592BC12"]
+			id: "32D14524199852BC"
+			tasks: [{
+				id: "6BD1949330DAB5D0"
+				type: "checkmark"
+				title: "FTB Quests"
+			}]
+			rewards: [{
+				id: "52D9524865F59D08"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Hats"
+			x: -1.5d
+			y: 1.5d
+			description: ["按 \"H\" 打开帽子菜单"]
+			dependencies: ["388505AF2592BC12"]
+			id: "5377564009F29DCD"
+			tasks: [{
+				id: "04595C517D38C323"
+				type: "checkmark"
+				title: "Press \"H\""
+			}]
+			rewards: [{
+				id: "0921533E6C865D4C"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"只能使用匠魂的工具。"
+				"kama可以用作锄头，也可以用来收集树叶"
+			]
+			dependencies: ["388505AF2592BC12"]
+			id: "6F58C54115FC3798"
+			tasks: [{
+				id: "78BDD81B3E5D1332"
+				type: "checkmark"
+				title: "Tools"
+			}]
+			rewards: [{
+				id: "193094980CEC50FE"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["这个modpack可以在skyblock模式下播放，右键单击给定的项目将允许你改变游戏模式。请注意，需要重新启动系统才能生效。只有当你在你的世界选项中选择了世界类型天幕时，这才会起作用"]
+			dependencies: ["388505AF2592BC12"]
+			size: 2.0d
+			id: "3EF0C9D6609056B5"
+			tasks: [{
+				id: "08E4696350801DB6"
+				type: "checkmark"
+				title: "Skyblock Mode"
+			}]
+			rewards: [{
+				id: "70A87B535E34BF00"
+				type: "item"
+				item: "techopolis:mode_switcher_1"
+			}]
+		}
+	]
+}
