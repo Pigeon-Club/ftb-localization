@@ -1,0 +1,108 @@
+{
+	id: "2CEBEC79672EE6E9"
+	group: "55BC109C262C6DFB"
+	order_index: 2
+	filename: "nether_technium"
+	title: "下界科技"
+	icon: "techopolis:nether_technium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["生长在下界菌树上"]
+			dependencies: ["682407AE209A50F0"]
+			id: "1538205D37A8AF34"
+			tasks: [{
+				id: "1CF544D07DC86862"
+				type: "item"
+				item: "minecraft:shroomlight"
+			}]
+			rewards: [{
+				id: "2379EF015B161B0A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["下界科技好!"]
+			dependencies: [
+				"1538205D37A8AF34"
+				"7E9C49E966A39695"
+				"16C91F748E3185B4"
+				"313627DBF7D1DD41"
+			]
+			id: "01B8F3D1950D869A"
+			tasks: [{
+				id: "2D728D3A69AB6329"
+				type: "item"
+				item: "techopolis:nether_technium_ingot"
+			}]
+			rewards: [{
+				id: "663253D397A82202"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["允许你采集1，2，3，4，5级的矿物并将他们移动到一个更加合适的地方"]
+			dependencies: ["01B8F3D1950D869A"]
+			id: "62E198175271F5C8"
+			tasks: [{
+				id: "297F4B9EDA3B1C06"
+				type: "item"
+				item: {
+					id: "techopolis:nether_technium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DB9B30A162BCB65"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["黑色科林斯青铜是一种由石英、铜和钴制成的合金"]
+			dependencies: ["2724BA1623CD5ACD"]
+			id: "313627DBF7D1DD41"
+			tasks: [{
+				id: "732603DD77D1F035"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+			rewards: [{
+				id: "48EC4A43B1FF453A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["太阳的奇妙抛瓦"]
+			dependencies: ["01B8F3D1950D869A"]
+			id: "2AC4B6ABF19C7C2D"
+			tasks: [{
+				id: "36DF47F8510F54F1"
+				type: "item"
+				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [{
+				id: "585E5D626EA6EAB3"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

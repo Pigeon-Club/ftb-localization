@@ -1,0 +1,157 @@
+{
+	id: "348FF17CCBE62573"
+	group: "1F798434333439CB"
+	order_index: 0
+	filename: "miner_tier_4"
+	title: "4级采矿机"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:miner_tier_4"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["一个用于挖掘附加资源的4级采矿机"]
+			dependencies: ["6702483534F8890F"]
+			id: "1247628F61996722"
+			tasks: [{
+				id: "368D8D0F63183B20"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:miner_tier_4"
+					}
+				}
+			}]
+			rewards: [{
+				id: "32D56DB5C5A2C1EF"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"绿柱石会在宝石探测器上显示为灰色"
+				"在空岛模式中矿物必须在市场(贸易站)中购买"
+				"这种矿物只有很小的机会能做成祖母绿，它更多时候会被做成铜簇"
+			]
+			dependencies: ["1247628F61996722"]
+			id: "31A6B869901E60D6"
+			tasks: [{
+				id: "49E5F3C5F419E68F"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "63066B536E278F33"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"金伯利岩会在宝石探测器上显示为白色"
+				"在空岛模式中矿物必须在市场(贸易站)中购买"
+				"这种矿物只有很小的机会能做成钻石，它更多时候会被做成煤炭"
+			]
+			dependencies: ["1247628F61996722"]
+			id: "354A270BB6A67EEA"
+			tasks: [{
+				id: "4281C2ED2CA6725F"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "35C366D59F2A8B68"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"闪锌矿会在金属探测器上显示为黑色"
+				"在空岛模式中矿物必须在市场(贸易站)中购买"
+			]
+			dependencies: ["1247628F61996722"]
+			id: "6DBE5F02240168BD"
+			tasks: [{
+				id: "4CA9D306E6D61267"
+				type: "item"
+				item: "geolosys:zinc_cluster"
+			}]
+			rewards: [{
+				id: "4950F8C676C575B1"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"钙铀云母会在金属探测器上显示为青绿色(lime ?)"
+				"在空岛模式中矿物必须在市场(贸易站)中购买"
+			]
+			dependencies: ["1247628F61996722"]
+			id: "7823AE0487622666"
+			tasks: [{
+				id: "584D4ABC6EA4F04F"
+				type: "item"
+				item: "geolosys:uranium_cluster"
+			}]
+			rewards: [{
+				id: "301507D27B5FA710"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["从4级采矿机中获取"]
+			dependencies: ["6DBE5F02240168BD"]
+			id: "3ED046A39A7DC397"
+			tasks: [{
+				id: "34D968046E9D31A2"
+				type: "item"
+				item: "geolosys:zinc_ingot"
+			}]
+			rewards: [{
+				id: "6DFA6AAC1E75E7FA"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["从4级采矿机中获取"]
+			dependencies: ["7823AE0487622666"]
+			id: "5964192C6546F8C7"
+			tasks: [{
+				id: "33BA096DC1AF72CD"
+				type: "item"
+				item: "mekanism:ingot_uranium"
+			}]
+			rewards: [{
+				id: "01D67F9A9317205B"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

@@ -1,0 +1,382 @@
+{
+	id: "61356B22B0D05118"
+	group: "6A1B09F2040C26F2"
+	order_index: 1
+	filename: "mining"
+	title: "采矿"
+	icon: {
+		id: "adfinders:mineral_finder"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Stone"
+			x: 0.0d
+			y: 0.0d
+			description: ["可以用来制作一把更好的镐子. 经常在地下找到"]
+			dependencies: ["72F89A512BC9F28F"]
+			id: "00FA265BDADF9157"
+			tasks: [{
+				id: "747677A443BA2C09"
+				type: "item"
+				title: "Any #quark:stone_tool_materials"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:stone_tool_materials"
+					}
+				}
+			}]
+			rewards: [{
+				id: "492AB709CF8EFB50"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["允许熔炼基本的材料和物品"]
+			dependencies: ["00FA265BDADF9157"]
+			id: "5ED83BFD1AF0640E"
+			tasks: [{
+				id: "26657D8B990BDB71"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "488ED5EF4E9C8CD2"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["玻璃可以用熔炉制作"]
+			dependencies: [
+				"3DFA7088CF07C548"
+				"5ED83BFD1AF0640E"
+			]
+			id: "3D5870B03C8FEED4"
+			tasks: [{
+				id: "334F5C810527B908"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+			rewards: [{
+				id: "118F428F840F7524"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Sand"
+			x: 3.0d
+			y: 1.5d
+			description: ["沙子可以在河流，海洋和沙滩找到. 同时也会生成在地表 "]
+			id: "3DFA7088CF07C548"
+			tasks: [{
+				id: "42B6B1D6620B53A0"
+				type: "item"
+				title: "Any #minecraft:sand"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:sand"
+					}
+				}
+			}]
+			rewards: [{
+				id: "044518E70943D779"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["黏土可以在河底找到. 同时也会在地表生成 "]
+			id: "04C0731F73D0EAA4"
+			tasks: [{
+				id: "52FBDF1BA97BCA3D"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "5F0D880AA4C3C25C"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["沙砾能够在地底找到，有时也会在地表和沙滩上生成.  "]
+			id: "10F3FE6BB2274CAC"
+			tasks: [{
+				id: "7EACD21BB1D84BCC"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "55259E92322743A8"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["可以被用到制作更好的镐子上"]
+			dependencies: ["00FA265BDADF9157"]
+			id: "4A8F3FFED470AE34"
+			tasks: [{
+				id: "5909CA956EEF3666"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "657922665A4BFB91"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["发现像青金石一样的矿石"]
+			dependencies: ["2CE5DED390BA4B25"]
+			optional: true
+			id: "6E4F55354EDE3EE9"
+			tasks: [{
+				id: "11723E718986CDC5"
+				type: "item"
+				item: {
+					id: "adfinders:gem_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B27920DE2C2AD80"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["发现像煤矿一样的矿物"]
+			dependencies: ["2CE5DED390BA4B25"]
+			optional: true
+			id: "2D2B043D8F461F7E"
+			tasks: [{
+				id: "2531D61B67137276"
+				type: "item"
+				item: {
+					id: "adfinders:mineral_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ED0A17C21CC0B05"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["发现像金子一样的金属"]
+			dependencies: ["2CE5DED390BA4B25"]
+			optional: true
+			id: "0481305C8DE32A7B"
+			tasks: [{
+				id: "03E8D1C7FA70A30E"
+				type: "item"
+				item: {
+					id: "adfinders:metal_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33779BB05A27C34C"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["黏土块可以用黏土球制作"]
+			dependencies: ["04C0731F73D0EAA4"]
+			id: "1F45DE68691689DD"
+			tasks: [{
+				id: "0E3E4890DB26CFD6"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+			rewards: [{
+				id: "0A3C49DC155B5EFD"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["陶瓷桶可以用于盛放液体，但是当心高温流体会使它破损！"]
+			dependencies: ["1F45DE68691689DD"]
+			id: "5BC508413A62EBE6"
+			tasks: [{
+				id: "43DABD7CC1FC05BF"
+				type: "item"
+				item: "ceramicbucket:ceramic_bucket"
+			}]
+			rewards: [{
+				id: "2F207D0A7349A8AC"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["可以让你找到一些生物群落"]
+			dependencies: [
+				"2D2B043D8F461F7E"
+				"0481305C8DE32A7B"
+				"6E4F55354EDE3EE9"
+			]
+			optional: true
+			id: "606F9E817836B228"
+			tasks: [{
+				id: "3435349E928E9E81"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "496460134DB900BF"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Finders"
+			x: 1.5d
+			y: 3.0d
+			description: ["不同的探测器可以用来寻找不同的矿物. 但是它在空岛世界中没有用处"]
+			dependencies: ["3D5870B03C8FEED4"]
+			id: "2CE5DED390BA4B25"
+			tasks: [{
+				id: "35B8751F0F53FB44"
+				type: "checkmark"
+				title: "Finders can be used to find metal ores (like gold), gem ores (like lapis) and minerals (like"
+			}]
+			rewards: [{
+				id: "7F657AB6A5B66AEA"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["满足您所有的购物需求~"]
+			dependencies: [
+				"122AACB970211700"
+				"5ED83BFD1AF0640E"
+			]
+			id: "448E878901AF5257"
+			tasks: [{
+				id: "6BDEEB051F275C35"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "6A66AF9DA1F06AC8"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			title: "Jumbo Furnace"
+			x: 1.5d
+			y: -1.5d
+			description: ["将27个熔炉以3*3*3的模块放置在地上来构建一个巨型熔炉"]
+			dependencies: ["5ED83BFD1AF0640E"]
+			id: "0980C6499DE97FA8"
+			tasks: [{
+				id: "045FFB21A7CE6FA4"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 27L
+			}]
+			rewards: [{
+				id: "2F654C0A5D480C56"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["如果你拥有一个基础飞行戒指，那么你将可以起飞~"]
+			dependencies: ["448E878901AF5257"]
+			id: "1EB12E1DB827D60C"
+			tasks: [{
+				id: "03BE91BBAEE70120"
+				type: "item"
+				item: "balancedflight:basic_flight_anchor"
+			}]
+			rewards: [{
+				id: "0A9FBA144DFF87A6"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["如果你周围有锚，你可以用它飞行"]
+			dependencies: ["1EB12E1DB827D60C"]
+			id: "77165C7969E459E7"
+			tasks: [{
+				id: "2657C8587C5848AC"
+				type: "item"
+				item: "balancedflight:basic_flight_ring"
+			}]
+			rewards: [{
+				id: "25CC9C0F568947A3"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}
