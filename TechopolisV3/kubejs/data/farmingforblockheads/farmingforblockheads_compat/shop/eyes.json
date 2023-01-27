@@ -1,0 +1,144 @@
+{
+  "customCategories": {
+    "eye": {
+      "name": "眼睛",
+      "icon": {
+        "item": "minecraft:ender_eye"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "endrem:nether_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:rogue_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:guardian_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:old_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:witch_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:end_crystal_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:lost_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:black_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:corrupted_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:cold_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:magical_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    },
+    {
+      "output": {
+        "item": "endrem:wither_eye",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "eye"
+    }
+  ]
+}

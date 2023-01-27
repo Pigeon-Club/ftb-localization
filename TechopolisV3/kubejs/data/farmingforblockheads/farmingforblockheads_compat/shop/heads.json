@@ -1,0 +1,89 @@
+{
+  "customCategories": {
+    "heads": {
+      "name": "头",
+      "icon": {
+        "item": "minecraft:zombie_head"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "tconstruct:blaze_head",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 64
+      },
+      "category": "heads"
+    }, 
+    {
+      "output": {
+        "item": "minecraft:wither_skeleton_skull",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 64
+      },
+      "category": "heads"
+    }, 
+    {
+      "output": {
+        "item": "minecraft:zombie_head",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "heads"
+    },    
+	{
+      "output": {
+        "item": "minecraft:skeleton_skull",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "heads"
+    },	
+	{
+      "output": {
+        "item": "minecraft:creeper_head",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "heads"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:enderman_head",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 64
+      },
+      "category": "heads"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:spider_head",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "heads"
+    }
+  ]
+}
