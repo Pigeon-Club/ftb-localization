@@ -1,0 +1,183 @@
+{
+  "name": "资源组合器",
+  "appearance": {
+    "lightmode": "running",
+    "lightlevel": 7,
+    "block": "kubejs:machine/resource_combiner"
+  },
+  "components": [
+  	{
+	  "type": "custommachinery:redstone",
+	  "power": 1
+	},
+    {  	      
+      "mode": "input",
+      "id": "upgrade",
+      "type": "custommachinery:item",
+	  "capacity": 1,
+      "variant": "custommachinery:upgrade"
+    },  	
+    {
+      "mode": "input",
+      "id": "input1",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["techopolis:end_technium_plate", "techopolis:infused_ender_ingot", "minecraft:lapis_lazuli", "minecraft:obsidian","thermal:ruby_dust", "thermal:rf_coil", "mekanism:yellow_cake_uranium", "endrem:end_crystal_ingot", "minecraft:blaze_rod"],
+      "whitelist": true
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["moremekanismprocessing:draconium_ingot", "minecraft:coal", "techopolis:basic_technium_plate", "thermal:sapphire_dust", "thermal:sawdust", "mekanism:ingot_refined_obsidian", "minecraft:netherite_ingot", "minecraft:coal"],
+      "whitelist": true
+    },    
+	{
+      "mode": "input",
+      "id": "input3",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["techopolis:advanced_technium_plate", "tconstruct:ender_slime_crystal", "tconstruct:seared_brick", "immersiveengineering:plate_aluminum", "appliedenergistics2:certus_quartz_dust", "tconstruct:manyullyn_ingot", "powah:steel_energized"],
+      "whitelist": true
+    },
+    {
+      "mode": "input",
+      "id": "input4",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["quark:myalite", "techopolis:elite_technium_plate", "techopolis:infused_crystalline", "minecraft:stone", "thermal:constantan_gear", "mekanism:dust_quartz", "thermal:signalum_plate", "tconstruct:hepatizon_ingot"],
+      "whitelist": true
+    },    
+	{
+      "mode": "input",
+      "id": "input5",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["techopolis:ultimate_technium_plate", "minecraft:chorus_fruit", "geolosys:zinc_ingot", "immersiveengineering:treated_wood_horizontal", "mekanism:ingot_steel", "techopolis:platinum_dust", "appliedenergistics2:printed_silicon", "techopolis:zinc_plate"],
+      "whitelist": true
+    },	
+	{
+      "mode": "input",
+      "id": "input6",
+      "capacity": 64,
+      "type": "custommachinery:item",
+	  "filter": ["techopolis:nether_technium_plate", "techopolis:nether_technium_plate", "powah:uraninite", "thermal:invar_ingot", "mekanism:ingot_bronze", "thermal:silver_dust", "techopolis:crystalline", "mekanism:alloy_atomic", "minecraft:shroomlight"],
+      "whitelist": true
+    },      	
+	{
+      "mode": "input",
+      "id": "input7",
+      "capacity": 64000,
+      "type": "custommachinery:energy",
+	  "maxOutput": 0
+    },   	
+	{
+      "mode": "input",
+      "id": "input8",
+      "capacity": 10000,
+      "type": "custommachinery:fluid"
+    },           
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 38,
+      "y": 0,
+	  "width": 180,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 85,
+      "type": "custommachinery:player_inventory"
+    },
+	{
+	  "type": "custommachinery:reset",
+      "x": 166,
+      "y": 7
+    },
+	{
+	  "id": "upgrade",
+      "x": 137,
+      "y": 57,
+      "type": "custommachinery:slot",
+	  "item": "#techopolis:technium_ingots"
+    },
+    {
+      "x": 85,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "id": "input1"
+    },
+    {
+      "x": 65,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "id": "input2"
+    },    
+	{
+      "x": 65,
+      "y": 57,
+      "type": "custommachinery:slot",
+      "id": "input3"
+    },    
+	{
+      "x": 85,
+      "y": 37,
+      "type": "custommachinery:slot",
+      "id": "input4"
+    },		
+	{
+      "x": 65,
+      "y": 37,
+      "type": "custommachinery:slot",
+      "id": "input5"
+    },		
+	{
+      "x": 85,
+      "y": 57,
+      "type": "custommachinery:slot",
+      "id": "input6"
+    },	
+	{
+      "x": 45,
+      "y": 25,
+      "type": "custommachinery:energy",
+      "id": "input7"
+    },		
+	{
+      "x": 105,
+      "y": 25,
+      "type": "custommachinery:fluid",
+      "id": "input8"
+    },	
+    {
+      "id": "output1",
+      "x": 173,
+      "y": 37,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 136,
+      "y": 37,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 200,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+	{
+      "text": "资源组合器",
+      "x": 43,
+      "y": 7,
+      "type": "custommachinery:text"
+    }
+  ]
+}
