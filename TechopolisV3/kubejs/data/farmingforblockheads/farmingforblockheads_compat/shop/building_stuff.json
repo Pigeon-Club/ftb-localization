@@ -1,0 +1,56 @@
+{
+  "customCategories": {
+    "building_stuff": {
+      "name": "凿子",
+      "icon": {
+        "item": "chisel:iron_chisel"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "chisel:iron_chisel",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "building_stuff"
+    },    
+	{
+      "output": {
+        "item": "chisel:diamond_chisel",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 30
+      },
+      "category": "building_stuff"
+    },	
+	{
+      "output": {
+        "item": "minecraft:stonecutter",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 20
+      },
+      "category": "building_stuff"
+    },	
+	{
+      "output": {
+        "item": "chisel:auto_chisel",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 50
+      },
+      "category": "building_stuff"
+    }
+  ]
+}

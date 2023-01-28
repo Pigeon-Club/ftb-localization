@@ -1,0 +1,309 @@
+{
+  "customCategories": {
+    "saplings": {
+      "name": "树苗",
+      "icon": {
+        "item": "minecraft:oak_sapling"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:oak_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },    
+	{
+      "output": {
+        "item": "minecraft:birch_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:jungle_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:spruce_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:dark_oak_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:acacia_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "integrateddynamics:menril_sapling",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:potato",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:carrot",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:beetroot_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:wheat_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },		
+	{
+      "output": {
+        "item": "minecraft:pumpkin_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },		
+	{
+      "output": {
+        "item": "minecraft:melon_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },		
+	{
+      "output": {
+        "item": "minecraft:sweet_berries",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:bamboo",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 32
+      },
+      "category": "saplings"
+    },		
+	{
+      "output": {
+        "item": "minecraft:cactus",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 16
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:kelp",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 32
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "minecraft:sugar_cane",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 8
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "immersiveengineering:seed",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "farmersdelight:cabbage_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "farmersdelight:rice",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "farmersdelight:tomato_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "farmersdelight:onion",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:earth_slime_grass_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:ender_slime_grass_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:blood_slime_grass_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    },	
+	{
+      "output": {
+        "item": "tconstruct:sky_slime_grass_seeds",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "saplings"
+    }
+  ]
+}

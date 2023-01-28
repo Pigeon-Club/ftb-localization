@@ -1,0 +1,32 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "原版 树苗",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald",
+	  "amount": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:oak_sapling"
+    },
+    {
+      "output": "minecraft:spruce_sapling"
+    },
+    {
+      "output": "minecraft:birch_sapling"
+    },
+    {
+      "output": "minecraft:jungle_sapling"
+    },
+    {
+      "output": "minecraft:acacia_sapling"
+    },
+    {
+      "output": "minecraft:dark_oak_sapling"
+    }
+  ]
+}

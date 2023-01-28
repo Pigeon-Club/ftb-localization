@@ -1,0 +1,78 @@
+{
+  "customCategories": {
+    "drawers": {
+      "name": "存储抽屉",
+      "icon": {
+        "item": "storagedrawers:drawer_key"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "storagedrawers:drawer_key",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 25
+      },
+      "category": "drawers"
+    },    
+	{
+      "output": {
+        "item": "storagedrawers:quantify_key",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 20
+      },
+      "category": "drawers"
+    },	
+	{
+      "output": {
+        "item": "storagedrawers:shroud_key",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 15
+      },
+      "category": "drawers"
+    },	
+	{
+      "output": {
+        "item": "storagedrawers:illumination_upgrade",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "drawers"
+    },	
+	{
+      "output": {
+        "item": "storagedrawers:void_upgrade",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 20
+      },
+      "category": "drawers"
+    },	
+	{
+      "output": {
+        "item": "storagedrawers:one_stack_upgrade",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "drawers"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "4CC5D67BAB713F5F", title: "欢迎" }
+		{ id: "6A1B09F2040C26F2", title: "入门" }
+		{ id: "03CF34AA16D16B6F", title: "1级" }
+		{ id: "178A97B2CE07EE30", title: "1级" }
+		{ id: "4722D992B3E07E8E", title: "3级" }
+		{ id: "1F798434333439CB", title: "4级" }
+		{ id: "55BC109C262C6DFB", title: "5级" }
+		{ id: "20FD61328CB6F105", title: "6级" }
+		{ id: "57AD274BC63A99EA", title: "7级" }
+		{ id: "2599C4AFEE11055A", title: "挑战" }
+	]
+}

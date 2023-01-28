@@ -1,0 +1,56 @@
+{
+  "customCategories": {
+    "flight": {
+      "name": "飞行",
+      "icon": {
+        "item": "balancedflight:basic_flight_ring"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "balancedflight:basic_flight_anchor",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 20
+      },
+      "category": "flight"
+    },    
+	{
+      "output": {
+        "item": "balancedflight:gilded_flight_anchor",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 40
+      },
+      "category": "flight"
+    },    
+	{
+      "output": {
+        "item": "balancedflight:ascended_flight_anchor",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 60
+      },
+      "category": "flight"
+    },    
+	{
+      "output": {
+        "item": "balancedflight:basic_flight_ring",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 32
+      },
+      "category": "flight"
+    }
+  ]
+}

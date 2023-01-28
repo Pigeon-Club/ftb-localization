@@ -1,0 +1,155 @@
+{
+  "customCategories": {
+    "blocks": {
+      "name": "方块",
+      "icon": {
+        "item": "minecraft:stone"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:granite",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },     
+	{
+      "output": {
+        "item": "minecraft:cobblestone",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },      
+	{
+      "output": {
+        "item": "minecraft:dirt",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },    
+	{
+      "output": {
+        "item": "minecraft:diorite",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "minecraft:andesite",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "quark:deepslate",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "quark:marble",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "quark:limestone",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },
+	{
+      "output": {
+        "item": "quark:jasper",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "quark:slate",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },	
+	{
+      "output": {
+        "item": "quark:basalt",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },
+	{
+      "output": {
+        "item": "quark:myalite",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    },
+	{
+      "output": {
+        "item": "chisel:basalt/raw",
+		"count": 64
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "blocks"
+    }
+  ]
+}

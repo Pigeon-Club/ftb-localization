@@ -1,0 +1,199 @@
+{
+	id: "710352AE802455E1"
+	group: "03CF34AA16D16B6F"
+	order_index: 0
+	filename: "tier_1"
+	title: "一级采矿机"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:miner_tier_1"
+		}
+	}
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["一个一级采矿机可以用来开采矿物. 一个采矿机要开始采集矿物需要将它放在3*3*3的对应矿物原矿上"]
+			dependencies: [
+				"2D2B043D8F461F7E"
+				"6E4F55354EDE3EE9"
+				"0481305C8DE32A7B"
+			]
+			id: "57C747C439C41960"
+			tasks: [{
+				id: "4FDD1E54AB455B8F"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:miner_tier_1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "42E68107B89E7AA5"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["青金石在宝石探测器上显示为蓝色. 在空岛模式中矿物必须在采购站中购买"]
+			dependencies: ["57C747C439C41960"]
+			id: "4389A1722535903C"
+			tasks: [{
+				id: "42A28B83DD57FAF0"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "585B014E9FB5F8B3"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["煤炭在矿物探测器上显示为黑色. 在空岛模式中矿物必须在采购站中购买"]
+			dependencies: ["57C747C439C41960"]
+			id: "123DC30037F85D5E"
+			tasks: [{
+				id: "7F952CDA76CE0E99"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "741AF274ACD4E1A1"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: [
+				"蓝铜和孔雀石惠子啊宝石探测器上显示为蓝色和绿色"
+				"在空岛模式中矿物必须在采购站中购买"
+			]
+			dependencies: ["57C747C439C41960"]
+			id: "1DF148396FDA8814"
+			tasks: [{
+				id: "4B86F8909026F0AF"
+				type: "item"
+				item: "geolosys:copper_cluster"
+			}]
+			rewards: [{
+				id: "4174A380E1E24B04"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: [
+				"锡石和硫锡铅矿在金属探测器上显示为白色"
+				"在空岛模式中矿物必须在采购站中购买"
+			]
+			dependencies: ["57C747C439C41960"]
+			id: "249E20549E23F3D5"
+			tasks: [{
+				id: "572E2C2767E16B1E"
+				type: "item"
+				item: "geolosys:tin_cluster"
+			}]
+			rewards: [{
+				id: "1D1C8DAD1B8704B0"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["从熔融铜中获得"]
+			dependencies: [
+				"1DF148396FDA8814"
+				"5385996DDAEF9F2A"
+			]
+			id: "420338B6CCF46B3A"
+			tasks: [{
+				id: "3EBD902D92FF6054"
+				type: "item"
+				item: "mekanism:ingot_copper"
+			}]
+			rewards: [{
+				id: "6DAD9CE8A5EF45E5"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["从熔融锡中获得"]
+			dependencies: [
+				"249E20549E23F3D5"
+				"5385996DDAEF9F2A"
+			]
+			id: "1CD5B934DA276DD7"
+			tasks: [{
+				id: "6AC5632317106A0B"
+				type: "item"
+				item: "mekanism:ingot_tin"
+			}]
+			rewards: [{
+				id: "29BCFD49AD24355A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"可以在3*3*3的水泥顶部放一级采矿机，以产生黏土、沙子和沙砾"
+				"{image:techopolis:textures/ftbquests/grout.png width:104 height:100 align:1}"
+			]
+			dependencies: ["57C747C439C41960"]
+			id: "49853975C58892D2"
+			tasks: [{
+				id: "34E4C4BDAE094C56"
+				type: "checkmark"
+				title: "Grout"
+			}]
+			rewards: [{
+				id: "3EA30A7A3A404D6A"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"石头采集器可以采集各种石头. 一个由相同类型石头摆放成的5*5*5的区域将会产出对应的石头. 这种机器需要少量的能量工作"
+				"Use $stone_miner in JEI to view blocks that can be mined like this"
+			]
+			dependencies: ["57C747C439C41960"]
+			id: "5434CC72019E0B20"
+			tasks: [{
+				id: "29C5AFF0C3ECE407"
+				type: "checkmark"
+				title: "Stone Types"
+			}]
+			rewards: [{
+				id: "19F638B20EBE9D46"
+				type: "item"
+				item: "techopolis:tech_bucks"
+			}]
+		}
+	]
+}

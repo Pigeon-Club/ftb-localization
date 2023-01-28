@@ -1,0 +1,287 @@
+{
+  "customCategories": {
+    "ore_nodes": {
+      "name": "矿物节点",
+      "icon": {
+        "item": "techopolis:basic_technium_ingot"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "geolosys:coal_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },    
+	{
+      "output": {
+        "item": "geolosys:lapis_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },	
+	{
+      "output": {
+        "item": "geolosys:malachite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:azurite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },	
+	{
+      "output": {
+        "item": "geolosys:cassiterite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },	
+	{
+      "output": {
+        "item": "geolosys:teallite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "ore_nodes"
+    },
+    {
+      "output": {
+        "item": "geolosys:cinnabar_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:basic_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },    
+	{
+      "output": {
+        "item": "geolosys:hematite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:basic_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },	
+	{
+      "output": {
+        "item": "geolosys:bauxite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:basic_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:limonite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:basic_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:platinum_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:advanced_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:quartz_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:advanced_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:galena_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:advanced_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:gold_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:advanced_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:kimberlite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:elite_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:beryl_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:elite_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:sphalerite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:elite_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:autunite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:elite_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "endrem:end_crystal_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:nether_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "geolosys:ancient_debris_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:nether_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "tconstruct:cobalt_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:nether_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "techopolis:draconium_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:end_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "techopolis:iridium_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:end_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "techopolis:tungsten_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:end_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    },
+	{
+      "output": {
+        "item": "quark:biotite_ore",
+		"count": 27
+      },
+      "payment": {
+        "item": "techopolis:end_technium_ingot",
+        "count": 1
+      },
+      "category": "ore_nodes"
+    }
+  ]
+}

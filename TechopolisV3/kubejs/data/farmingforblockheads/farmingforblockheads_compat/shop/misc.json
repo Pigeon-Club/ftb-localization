@@ -1,0 +1,89 @@
+{
+  "customCategories": {
+    "misc": {
+      "name": "杂项",
+      "icon": {
+        "item": "enderstorage:ender_chest"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "elevatorid:elevator_white",
+		"count": 2
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 30
+      },
+      "category": "misc"
+    },  
+    {
+      "output": {
+        "item": "measurements:tape_measure",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 10
+      },
+      "category": "misc"
+    },     
+	{
+      "output": {
+        "item": "enderstorage:ender_chest",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 35
+      },
+      "category": "misc"
+    },    
+	{
+      "output": {
+        "item": "enderstorage:ender_tank",
+		"count": 1
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 35
+      },
+      "category": "misc"
+    },	
+	{
+      "output": {
+        "item": "minecraft:bread",
+		"count": 12
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "misc"
+    },	
+	{
+      "output": {
+        "item": "techopolis:techbuck_coffee",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "misc"
+    },	
+	{
+      "output": {
+        "item": "techopolis:energy_drink",
+		"count": 4
+      },
+      "payment": {
+        "item": "techopolis:tech_bucks",
+        "count": 5
+      },
+      "category": "misc"
+    }
+  ]
+}
