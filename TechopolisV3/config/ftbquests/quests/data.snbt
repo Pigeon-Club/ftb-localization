@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "科技之城with a gaybar server techopolis V3"
+	title: "科技之城techopolis V3"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
